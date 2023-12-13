@@ -1,22 +1,5 @@
 *{
-    font-family:"Nunito Sans";
-}
-p{
-    font-family:Nunito Sans;
-}
-h1{
-    font-size:25px;
-    font-family:Nunito Sans;
-    font-weight:600;
-}
-h2{
-    font-size: 20px;
-    font-family:Nunito Sans;
-    font-weight:600;
-}
-.content{
-    width: 1024px;
-    height: 1024px;
+    font-family: "Nunito Sans";
 }
 .background-header{
     background-image: url(winter.jpg);
@@ -35,7 +18,7 @@ h2{
 }
 .logo{
     width: 100px;
-    height: 150px;
+    height: 100px;
     /*object-fit: cover;*/
 }
 .navigation{
@@ -46,8 +29,10 @@ h2{
 }
 .phone{
     display: flex;
+    align-items: flex-end;
 }
 .icon-phone{
-    width: 17px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
+    padding-right: 12px;
 }
