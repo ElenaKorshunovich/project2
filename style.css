@@ -1,5 +1,5 @@
 *{
-    font-family:Nunito Sans; /*Почему не применяется шрифт через универсальный селектор?*/
+    font-family:"Nunito Sans";
 }
 p{
     font-family:Nunito Sans;
@@ -17,7 +17,6 @@ h2{
 .content{
     width: 1024px;
     height: 1024px;
-
 }
 .header{
     background-image: url(winter.jpg);
