@@ -2,7 +2,7 @@
     font-family: "Nunito Sans";
 }
 .background-header{
-    background-image: url(winter.jpg);
+    background-image: url(hero.jpg);
     height: 700px;
     object-fit: cover;
 }
@@ -35,4 +35,29 @@
     width: 18px;
     height: 18px;
     padding-right: 12px;
+}
+.main-title{
+    font-family: Nunito Sans;
+    font-weight: 600;
+    font-size:60px;
+    width:50%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.main-text{
+    font-family: Nunito Sans;
+    font-weight: 300;
+    font-size: 20px;
+    width: 40%;
+    padding-bottom: 50px;
+}
+.button-first{
+    font-family: Nunito Sans;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 13px 30px 13px 30px;
+    border-radius: 10px;
+    border: none;
+    color:white;
+    background-color: #f97316;
 }
