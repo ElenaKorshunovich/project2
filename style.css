@@ -18,8 +18,36 @@ h2{
     width: 1024px;
     height: 1024px;
 }
-.header{
+.background-header{
     background-image: url(winter.jpg);
     height: 700px;
     object-fit: cover;
+}
+.starting-part{
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: 150px;
+    /*object-fit: cover;*/
+}
+.navigation{
+    display: flex;
+}
+.price-reviews{
+    padding: 15px;
+}
+.phone{
+    display: flex;
+}
+.icon-phone{
+    width: 17px;
+    height: 15px;
 }
