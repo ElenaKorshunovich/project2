@@ -162,3 +162,30 @@ p{
 .part4{
     background-color: #fafaf9;
 }
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin:20px auto 70px auto;
+}
+.review{
+
+}
+    
+.title-review{
+    font-size: 18px;
+    color: #44403c;
+    padding-top: 20px;
+    font-weight: 300px;
+
+}
+.text-review{
+    font-size: 16px;
+    color: #44403c;
+    padding-top: 10px;
+    font-weight: 200px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d6d3d1;
+
+}
