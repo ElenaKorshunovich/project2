@@ -65,11 +65,12 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.title-part2{
+.title-parts{
     font-family: Nunito Sans;
     font-weight: 400;
     font-size: 36px;
     text-align: center;
+    padding-top: 100px;
 }
 .advantages{
     display: flex;
@@ -109,4 +110,55 @@ p{
     font-weight: 300;
     color: #44403c;
     padding-top: 15px;
+}
+.about-school{
+    display: flex;
+    padding-top: 70px;
+    align-items: flex-end;
+}
+.title-about-school{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: Nunito Sans;
+    padding-bottom: 30px;
+}
+.picture-about-school{
+    width: 500px;
+    height: 300px;
+}
+.text-about-school{
+    font-size: 16px;
+    color: #44403c;
+    padding-top: 20px;
+}
+.part3{
+    background-color: #ffedd5;
+}
+.text-part3{
+    color: #44403c;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.windows-input{
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 130px;
+    justify-content: center;
+}
+.window-input{
+    font-family: Nunito Sans;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 13px 30px 10px 5px;
+    border-radius: 10px;
+    border-color: #d6d3d1;
+    border-style:solid;
+    border-width: 1px;
+    color:white;
+    margin-right: 10px;
+}
+.part4{
+    background-color: #fafaf9;
 }
