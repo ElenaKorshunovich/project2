@@ -173,13 +173,11 @@ p{
 .review{
 
 }
-    
 .title-review{
     font-size: 18px;
     color: #44403c;
     padding-top: 20px;
     font-weight: 300px;
-
 }
 .text-review{
     font-size: 16px;
@@ -193,6 +191,8 @@ p{
 .subscriptions{
     display: flex;
     justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
 
 }
 .subscription{
@@ -205,7 +205,6 @@ p{
     color: #f97316;
     font-size: 16px;
     padding:8px 0 8px 0;
-
 }
 .price{
     color: #44403c;
@@ -218,13 +217,21 @@ p{
 .conditions{
     padding-bottom: 20px;
     padding-top: 10px;
-  
 }
 .condition{
     display: flex;
     font-size: 16px;
     color: #44403c;
     font-weight: 300;
-
-
+}
+.button-second{
+    font-family: Nunito Sans;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    color:#ea580c;
+    background-color: #ffedd5;
+    width: 100%;
 }
