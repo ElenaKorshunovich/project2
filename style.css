@@ -4,7 +4,8 @@
 .background-header{
     background-image: url(hero.jpg);
     height: 700px;
-    object-fit: cover;
+    background-size: contain;
+    background-position: center;
 }
 .content{
     width: 100%;
@@ -234,4 +235,17 @@ p{
     color:#ea580c;
     background-color: #ffedd5;
     width: 100%;
+}
+.footer{
+    background-color: #d6d3d1;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+.icon-footer{
+    font-size: 25px;
+    color: #78716c;
+    display: flex;
 }
