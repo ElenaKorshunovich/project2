@@ -3,9 +3,9 @@
 }
 .background-header{
     background-image: url(hero.jpg);
-    height: 700px;
-    background-size: contain;
-    background-position: center;
+    height: 800px;
+    background-size: cover;
+    background-position: top;
 }
 .content{
     width: 100%;
@@ -51,6 +51,7 @@
     font-size: 20px;
     width: 40%;
     padding-bottom: 50px;
+    color: #44403c;
 }
 .button-first{
     font-family: Nunito Sans;
@@ -63,8 +64,8 @@
     background-color: #f97316;
 }
 .part2{
-    padding-top: 100px;
     padding-bottom: 100px;
+    background-color: white;
 }
 .title-parts{
     font-family: Nunito Sans;
@@ -89,8 +90,8 @@
     align-items: center;
 }
 .icon{
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     background-color: #f97316;
     color: #fafaf9;
     font-size: 25px;
@@ -110,7 +111,8 @@ p{
     font-size: 16px;
     font-weight: 300;
     color: #44403c;
-    padding-top: 15px;
+    padding:20px 0 20px 0;
+    line-height:25px;
 }
 .about-school{
     display: flex;
@@ -176,7 +178,7 @@ p{
 }
 .title-review{
     font-size: 18px;
-    color: #44403c;
+    color: #1c1917;
     padding-top: 20px;
     font-weight: 300px;
 }
@@ -184,9 +186,10 @@ p{
     font-size: 16px;
     color: #44403c;
     padding-top: 10px;
-    font-weight: 200px;
+    font-weight: 300;
     padding-bottom: 20px;
     border-bottom: 1px solid #d6d3d1;
+    line-height:20px;
 
 }
 .subscriptions{
@@ -201,6 +204,10 @@ p{
     margin: 10px;
     border: 1px solid #d6d3d1;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 .month{
     color: #f97316;
@@ -221,9 +228,11 @@ p{
 }
 .condition{
     display: flex;
-    font-size: 16px;
-    color: #44403c;
+    font-size: 15px;
+    color: #78716c;
     font-weight: 300;
+    font-size: 15px;
+    line-height:25px;
 }
 .button-second{
     font-family: Nunito Sans;
@@ -243,9 +252,13 @@ p{
     display: flex;
     justify-content: space-between;
     padding: 70px;
+    align-items: center;
 }
-.icon-footer{
+.icons-footer{
     font-size: 25px;
     color: #78716c;
     display: flex;
+}
+.icon-footer{
+padding: 7px;
 }
