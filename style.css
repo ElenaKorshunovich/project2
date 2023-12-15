@@ -133,6 +133,7 @@ p{
     font-size: 16px;
     color: #44403c;
     padding-top: 20px;
+    line-height:20px;
 }
 .part3{
     background-color: #ffedd5;
@@ -207,7 +208,6 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-grow: 1;
 }
 .month{
     color: #f97316;
@@ -225,6 +225,7 @@ p{
 .conditions{
     padding-bottom: 20px;
     padding-top: 10px;
+    flex-grow: 1;
 }
 .condition{
     display: flex;
