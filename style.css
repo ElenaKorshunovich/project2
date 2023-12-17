@@ -212,6 +212,7 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 30%;
 }
 .month{
     color: #f97316;
@@ -268,4 +269,11 @@ padding: 7px;
 }
 a{
     text-decoration: none;
+    color: #44403c;
+   
+}
+a:hover{
+    color: #1c1917;
+    cursor: pointer;
+    font-weight: 600;
 }
